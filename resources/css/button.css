@@ -14,7 +14,8 @@
   }
 
   .btn:active {
-    color: gray;
+    color: blanchedalmond;
+    text-decoration-color: blanchedalmond;
   }
   
   .btn {
