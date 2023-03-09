@@ -10,7 +10,7 @@
   
   .btn:hover::after {
     width: 100%;
-    background: black;
+    background: white;
   }
 
   .btn:active {
@@ -24,7 +24,7 @@
     line-height: 130%;
     text-align: center;
     font-size: medium;
-    color: black;
+    color: white;
   
   }
   

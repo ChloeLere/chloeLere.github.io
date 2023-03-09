@@ -1,14 +1,14 @@
 
 .contentTextPresentation {
     font-size: 300%;
-    color:black;
+    color:white;
     font-weight: bold;
     margin-left: 25%;
   }
   
   .slider-wrapper {
     font-size: 90%;
-    color:black;
+    color:white;
     font-weight: bold;
     display: flex;
   }
@@ -29,14 +29,16 @@
   }
   
   .slider-text1 {
-    background: lightgreen;
     animation: slide 8s linear infinite;
+    background: skyblue;
+
   }
   .slider-text2 {
     background: skyblue;
   }
   .slider-text3 {
-    background: lightcoral;
+    background: skyblue;
+
   }
   
   @keyframes slide {

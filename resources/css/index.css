@@ -1,3 +1,16 @@
 body {
-  background-color: blanchedalmond;
+  height: 500vh;
+  background: linear-gradient(
+    to bottom,
+    lightcoral 0%,
+    lightcoral 10%,
+    blanchedalmond 10%,
+    blanchedalmond 30%,
+    lightgreen 30%,
+    lightgreen 45%,
+    lightskyblue 45%,
+    lightskyblue 100%
+  );
+
+ /* background-color: blanchedalmond;*/
 }
