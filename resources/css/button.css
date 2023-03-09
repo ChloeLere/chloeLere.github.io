@@ -28,4 +28,34 @@
     color: white;
   
   }
+
+  .btnSkills {
+    background: transparent;
+    border: transparent;
+    text-decoration:none;
+    line-height: 130%;
+    font-size: medium;
+    color: white;
+    margin-left: 75%;
   
+  }
+
+  .btnSkills::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  
+  .btnSkills:hover::after {
+    width: 100%;
+    background: white;
+  }
+
+  .btnSkills:active {
+    color: blanchedalmond;
+    text-decoration-color: blanchedalmond;
+  }

@@ -16,7 +16,8 @@ body {
 .contentSkill {
   margin-top : 10%;
   color:white;
-  display: flex;
+  align-items: center;
+  
 }
 
 .title {
@@ -26,16 +27,14 @@ body {
 }
 
 th {
-  font-size: 150%;
-  border-width:1px;
+  font-size: 130%;
+  border-width:2px;
   border-style:solid;
-  border-color:black;
-  padding: 10px;
+  border-color:rgb(57, 205, 57);
+  padding: 12px;
 }
 
 .tableau {
   border-spacing: 50px;
-  margin-top : 5%;
-  align-items: center;
-  margin-left: 10%;
+  margin-left: 20%;
 }
