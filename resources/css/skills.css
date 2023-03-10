@@ -1,0 +1,19 @@
+
+.title {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  
+  th {
+    font-size: 130%;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(57, 205, 57);
+    padding: 12px;
+  }
+  
+  .tableau {
+    border-spacing: 50px;
+    margin-left: 20%;
+  }
